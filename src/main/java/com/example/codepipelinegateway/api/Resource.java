@@ -13,6 +13,6 @@ public class Resource {
     @GetMapping("/gateway")
     public String callService() {
 //        return feignProxy.retrieveValue();
-        return "Inside Gateway";
+        return "Inside Gateway response";
     }
 }
